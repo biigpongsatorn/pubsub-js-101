@@ -53,7 +53,7 @@ export default {
     },
     unsubscribe() {
       this.$pubsub.unsubscribe(this.pushMessagesSubscriber);
-      alert('unsubscribe success !')
+      alert('unsubscribe success !');
     },
     changeColor(color, msg, index) {
       const payload = {
