@@ -9,7 +9,7 @@
     <div class="f-left w-33pct top-level-logs-container">
       <div class="f-left w-100pct pd-15px">
         <div>
-          TOP LEVEL LOGS
+          Top level logs
         </div>
         <ul>
           <li v-for="(l, i) in topLevelLogs" :key="i">

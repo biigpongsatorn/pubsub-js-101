@@ -4,7 +4,7 @@
       Logs
     </div>
     <div class="f-left w-100pct">
-      <button class="pd-15px cs-pointer bd-rd-5px" @click="unsubscribe">
+      <button class="pd-10px cs-pointer bd-rd-5px" @click="unsubscribe">
         Unsubscribe
       </button>
     </div>
@@ -53,6 +53,7 @@ export default {
     },
     unsubscribe() {
       this.$pubsub.unsubscribe(this.pushMessagesSubscriber);
+      alert('unsubscribe success !')
     },
     changeColor(color, msg, index) {
       const payload = {
