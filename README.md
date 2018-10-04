@@ -1,6 +1,6 @@
 # pubsub-js-101
 
-> A Vue.js project
+<img src="./static/screen-shot.png">
 
 ## Build Setup
 
